@@ -1,4 +1,4 @@
-alert("Mensagem fora do arquivo");
+alert("Mensagem fora do arquivo 01");
 
 var idade; //Criação de variáveis
 var nome;
