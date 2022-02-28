@@ -17,7 +17,7 @@ document.write("<h1>"+"ola " +nome+" você tem " +idade+" anos"+"</h1>");
 document.write("Olá "+nome+ " você tem "+idade+" anos e mora em "+cidade+" recebe "+salario+" por horas trabalhadas"+"<br>"); 
 document.write("Você gosta de morar em "+cidade+"? resposta: "+booleano); */
 
-var nome;
+/* var nome;
 var idade;
 var endereco;
 var peso;
@@ -30,10 +30,33 @@ endereco = "Rua Augusto Eccel 330";
 peso = 67.2;
 altura = 1.81;
 mesada = 100;
-
 document.write("<h1>"+"Óla me chamo "+nome+"."+"</h1>");
 document.write("<h1>"+"Eu tenho "+idade+" de idade."+"</h1>");
 document.write("<h1>"+"Eu moro na "+endereco+",");
 document.write("<h1>"+"Curiosidades de mim, eu peso "+peso+","+"</h1>");
 document.write("<h1>"+"minha altura é "+altura+","+"</h1>");
-document.write("<h1>"+"e eu ganho uma mesada de "+mesada+" por mês"+"</h1>");
+document.write("<h1>"+"e eu ganho uma mesada de "+mesada+" por mês"+"</h1>"); */
+
+
+/* var nome;
+
+nome = window.prompt("Insira um nome:")
+
+alert("Óla "+nome)
+
+document.write("Salve "+nome) */
+
+var nome
+var endereco
+var nacionalidade
+var profissao
+
+nome = window.prompt("Seu nome:");
+endereco = window.prompt("Insira seu endereço:");
+nacionalidade = window.prompt("Qual sua nacionalidade:");
+profissao = window.prompt("Qual sua profissão");
+
+document.write("<br>"+"Oie "+nome+"<br>");
+document.write("<br>"+"você mora "+endereco+"."+"<br>");
+document.write("<br>"+"Nasceu no/na ou em "+nacionalidade+" e"+"<br>");
+document.write("<br>"+"trabalha com "+profissao+"."+"<br>");
