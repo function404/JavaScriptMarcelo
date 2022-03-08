@@ -37,7 +37,6 @@ document.write("<h1>"+"Curiosidades de mim, eu peso "+peso+","+"</h1>");
 document.write("<h1>"+"minha altura é "+altura+","+"</h1>");
 document.write("<h1>"+"e eu ganho uma mesada de "+mesada+" por mês"+"</h1>"); */
 
-
 /* var nome;
 
 nome = window.prompt("Insira um nome:")
@@ -60,7 +59,6 @@ document.write("<br>"+"Oie "+nome+"<br>");
 document.write("<br>"+"você mora "+endereco+"."+"<br>");
 document.write("<br>"+"Nasceu no/na ou em "+nacionalidade+" e"+"<br>");
 document.write("<br>"+"trabalha com "+profissao+"."+"<br>"); */
-
 
 /* 
 var numero1 = parseFloat(window.prompt("Insira o primeiro valor"));
@@ -122,3 +120,33 @@ document.write(retorno+"<br>");
 retorno = (numero1 == numero2) || (numero1 > numero2);
 document.write(retorno); */
 
+function minhaFuncao() {
+  var opcao = document.getElementById("opcao").value;
+  var numero1 = document.getElementById("opcao").value;;
+  var numero2 = document.getElementById("opcao").value;;
+  var resultado = 0.0;
+
+  // Adição
+  resultado = numero1 + numero2;
+  document.getElementById('mensagem').innerHTML = ("soma: " + resultado + "<br>");
+
+  // Subtração
+  resultado = numero1 - numero2;
+  document.getElementById('mensagem').innerHTML = ("Subtração: " + resultado + "<br>");
+
+  // Divisão
+  resultado = numero1 / numero2;
+  document.getElementById('mensagem').innerHTML = ("Divisão: " + resultado + "<br>");
+
+  //Multiplicação
+  resultado = numero1 * numero2;
+  document.getElementById('mensagem').innerHTML = ("Multiplicação: " + resultado + "<br>");
+
+  //Resto Da Divisão
+  resultado = numero1 % numero2;
+  document.getElementById('mensagem').innerHTML = ("Resto da divisão: " + resultado);
+}
+
+function limpar() {
+  getElementById("mensagem").innerHTML = "";
+}
