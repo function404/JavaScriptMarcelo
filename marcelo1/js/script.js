@@ -46,7 +46,7 @@ alert("Óla "+nome)
 
 document.write("Salve "+nome) */
 
-var nome
+/* var nome
 var endereco
 var nacionalidade
 var profissao
@@ -59,4 +59,66 @@ profissao = window.prompt("Qual sua profissão");
 document.write("<br>"+"Oie "+nome+"<br>");
 document.write("<br>"+"você mora "+endereco+"."+"<br>");
 document.write("<br>"+"Nasceu no/na ou em "+nacionalidade+" e"+"<br>");
-document.write("<br>"+"trabalha com "+profissao+"."+"<br>");
+document.write("<br>"+"trabalha com "+profissao+"."+"<br>"); */
+
+
+/* 
+var numero1 = parseFloat(window.prompt("Insira o primeiro valor"));
+var numero2 = parseFloat(window.prompt("Insira o segundo valor"));
+var resultado = 0.00;
+
+// Adição
+resultado = (numero1 + numero2);
+document.write("soma: "+resultado+"<br>");
+
+// Subtração
+resultado = (numero1 - numero2);
+document.write("Subtração: "+resultado+"<br>");
+
+// Divisão
+resultado = (numero1 / numero2);
+document.write("Divisão: "+resultado+"<br>");
+
+//Multiplicação
+resultado = (numero1 * numero2);
+document.write("Multiplicação: "+resultado+"<br>");
+
+//Resto Da Divisão
+resultado = (numero1 % numero2);
+document.write("Resto da divisão: "+resultado); */
+
+/*
+var numero1 = 15;
+var numero2 = 20;
+var retorno;
+
+// maior
+retorno = (numero1 > numero2);
+document.write(retorno+"<br>");
+
+// menor
+retorno = (numero1 < numero2);
+document.write(retorno+"<br>");
+
+// maior igual
+retorno = (numero1 >= numero2);
+document.write(retorno+"<br>");
+
+// menor igual
+retorno = (numero1 <= numero2);
+document.write(retorno+"<br>");
+
+// igual
+retorno = (numero1 == numero2);
+document.write(retorno); 
+
+var numero1 = 15;
+var numero2 = 20;
+var retorno;
+
+retorno = (numero1 <= numero2) && (numero1 != numero2);
+document.write(retorno+"<br>");
+
+retorno = (numero1 == numero2) || (numero1 > numero2);
+document.write(retorno); */
+
