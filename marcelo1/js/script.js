@@ -20,6 +20,7 @@ document.write("Você gosta de morar em "+cidade+"? resposta: "+booleano); */
 /*
  
 var nome;
+/* var nome;
 var idade;
 var endereco;
 var peso;
@@ -50,7 +51,6 @@ if (valorProduto <= 10){
 } else{
     document.write('Permitido financiamento em 12 vezes sem juros');
 }
-==============================
 var idade = 19
 
 if (idade >= 18){
@@ -63,7 +63,7 @@ else {
 } */
 
 
-
+/* 
     var nmr = parseInt(prompt("Digite o código do filme:"));
 
     if (nmr == 1){
@@ -79,4 +79,166 @@ else {
     } else{
         document.write("Opção inválida!")
     }
+
+document.write("<h1>"+"Óla me chamo "+nome+"."+"</h1>");
+document.write("<h1>"+"Eu tenho "+idade+" de idade."+"</h1>");
+document.write("<h1>"+"Eu moro na "+endereco+",");
+document.write("<h1>"+"Curiosidades de mim, eu peso "+peso+","+"</h1>");
+document.write("<h1>"+"minha altura é "+altura+","+"</h1>");
+document.write("<h1>"+"e eu ganho uma mesada de "+mesada+" por mês"+"</h1>");
+
+/* var nome;
+
+nome = window.prompt("Insira um nome:")
+
+alert("Óla "+nome)
+
+document.write("Salve "+nome) */
+
+/* var nome
+var endereco
+var nacionalidade
+var profissao
+
+nome = window.prompt("Seu nome:");
+endereco = window.prompt("Insira seu endereço:");
+nacionalidade = window.prompt("Qual sua nacionalidade:");
+profissao = window.prompt("Qual sua profissão");
+
+document.write("<br>"+"Oie "+nome+"<br>");
+document.write("<br>"+"você mora "+endereco+"."+"<br>");
+document.write("<br>"+"Nasceu no/na ou em "+nacionalidade+" e"+"<br>");
+document.write("<br>"+"trabalha com "+profissao+"."+"<br>"); */
+
+/* 
+var numero1 = parseFloat(window.prompt("Insira o primeiro valor"));
+var numero2 = parseFloat(window.prompt("Insira o segundo valor"));
+var resultado = 0.00;
+
+// Adição
+resultado = (numero1 + numero2);
+document.write("soma: "+resultado+"<br>");
+
+// Subtração
+resultado = (numero1 - numero2);
+document.write("Subtração: "+resultado+"<br>");
+
+// Divisão
+resultado = (numero1 / numero2);
+document.write("Divisão: "+resultado+"<br>");
+
+//Multiplicação
+resultado = (numero1 * numero2);
+document.write("Multiplicação: "+resultado+"<br>");
+
+//Resto Da Divisão
+resultado = (numero1 % numero2);
+document.write("Resto da divisão: "+resultado); */
+
+/*
+var numero1 = 15;
+var numero2 = 20;
+var retorno;
+
+// maior
+retorno = (numero1 > numero2);
+document.write(retorno+"<br>");
+
+// menor
+retorno = (numero1 < numero2);
+document.write(retorno+"<br>");
+
+// maior igual
+retorno = (numero1 >= numero2);
+document.write(retorno+"<br>");
+
+// menor igual
+retorno = (numero1 <= numero2);
+document.write(retorno+"<br>");
+
+// igual
+retorno = (numero1 == numero2);
+document.write(retorno); 
+
+var numero1 = 15;
+var numero2 = 20;
+var retorno;
+
+retorno = (numero1 <= numero2) && (numero1 != numero2);
+document.write(retorno+"<br>");
+
+retorno = (numero1 == numero2) || (numero1 > numero2);
+document.write(retorno);
+
+function minhaFuncao() {
+  var opcao = document.getElementById("opcao").value;
+  var numero1 = document.getElementById("opcao").value;;
+  var numero2 = document.getElementById("opcao").value;;
+  var resultado = 0.0;
+
+  // Adição
+  resultado = numero1 + numero2;
+  document.getElementById('mensagem').innerHTML = ("soma: " + resultado + "<br>");
+
+  // Subtração
+  resultado = numero1 - numero2;
+  document.getElementById('mensagem').innerHTML = ("Subtração: " + resultado + "<br>");
+
+  // Divisão
+  resultado = numero1 / numero2;
+  document.getElementById('mensagem').innerHTML = ("Divisão: " + resultado + "<br>");
+
+  //Multiplicação
+  resultado = numero1 * numero2;
+  document.getElementById('mensagem').innerHTML = ("Multiplicação: " + resultado + "<br>");
+
+  //Resto Da Divisão
+  resultado = numero1 % numero2;
+  document.getElementById('mensagem').innerHTML = ("Resto da divisão: " + resultado);
+}
+
+function limpar() {
+  getElementById("mensagem").innerHTML = "";
+}
+*/
+
+function soma(){
+    var num1 = parseFloat(document.getElementById('num1').value);
+    var num2 = parseFloat(document.getElementById('num2').value);
+    
+    var calculo = num1 + num2;
+    document.getElementById("adicao").value = calculo;
+}
+
+function sub(){
+    var num1 = parseFloat(document.getElementById('num1').value);
+    var num2 = parseFloat(document.getElementById('num2').value);
+    
+    var calculo = num1 - num2;
+    document.getElementById("subtracao").value = calculo;
+}
+
+function mult(){
+    var num1 = parseFloat(document.getElementById('num1').value);
+    var num2 = parseFloat(document.getElementById('num2').value);
+    
+    var calculo = num1 * num2;
+    document.getElementById("multiplicacao").value = calculo;
+}
+
+function div(){
+    var num1 = parseFloat(document.getElementById('num1').value);
+    var num2 = parseFloat(document.getElementById('num2').value);
+    
+    var calculo = num1 / num2;
+    document.getElementById("divisao").value = calculo;
+}
+
+function rest(){
+    var num1 = parseFloat(document.getElementById('num1').value);
+    var num2 = parseFloat(document.getElementById('num2').value);
+    
+    var calculo = num1 % num2;
+    document.getElementById("resto").value = calculo;
+}
 
