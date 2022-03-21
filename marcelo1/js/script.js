@@ -201,7 +201,8 @@ function limpar() {
   getElementById("mensagem").innerHTML = "";
 }
 */
-
+// CALCULADORA
+/*
 function soma(){
     var num1 = parseFloat(document.getElementById('num1').value);
     var num2 = parseFloat(document.getElementById('num2').value);
@@ -240,5 +241,44 @@ function rest(){
     
     var calculo = num1 % num2;
     document.getElementById("resto").value = calculo;
-}
+} */
 
+// att 1
+
+var num = 10;
+var im;
+
+document.write("<h1>Impares</h1>")
+for (im = 1; im < 10; im++) {
+    if (num[im] % 2 != 1) {
+        document.write(im + "<br/>");
+    }
+};
+// atividade 2
+document.write('<h1>Soma de 1 ate 100</h1>');
+
+var i;
+var count = 0;
+
+for (i = 0; i <= 100; i++) {
+    count = (count + i)
+    document.write((count) + '<br>');
+};
+
+// ativiade 3
+var names = [
+    'João',
+    'Jose',
+    'Maria',
+    'Sebastiao',
+    'toni',
+];
+
+document.write('<h1>Exibir nomes de ate 4 letras</h1>');
+var i;
+
+for (i = 0; i <= names.length; i++) {
+    if (names[i].length === 4) {
+        document.write((names[i]) + '<br>');
+    }
+};
